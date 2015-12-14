@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Product Cost Calculator</title>
+</head>
+<body>
+	<div>
+		<p>Llene este formulario para calcular el costo totoal</p>
+		<form action="handle_calc4.php" method="post">
+			<p>Precio: <input type="text" name="price" size="5" /></p>
+
+			<p>Cantidad: <input type="text" name="quantity" size="5" /></p>
+
+			<p>Descuento: <input type="text" name="discount" size="5" /></p>
+
+			<p>Impuesto: <input type="text" name="tax" size="3" /> (%)</p>
+
+			<p>Metodo de embarque: <select name="shipping">
+				<option value="5.00">Lento y constante</option>
+				<option value="8.95">Un poquito rapido</option>
+				<option value="19.36">Lo queria para ayer</option>
+			</select></p>
+
+			<p>Numero de pagos a hacer: <input type="text" name="payments" size="3" /></p>
+
+			<input type="submit" name="submit" value="Calcular" />
+		</form>
+	</div>
+</body>
+</html>
