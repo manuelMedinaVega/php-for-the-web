@@ -21,6 +21,7 @@
 		// Count and print the current number of elements:
 		$count1 = count ($soups);
 		print "<p>The soups array originally had $count1 elements.</p>";
+		print "<p>The soups array originally had ". count($soups) ." elements.</p>";
 
 		// Add three items to the array:
 		$soups['Thursday'] = 'Chicken Noodle';
