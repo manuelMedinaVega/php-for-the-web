@@ -3,7 +3,7 @@
 
 // Set the page title and include the header file:
 define ('TITLE', 'Books by J.D. Salinger');
-include('templates/header.html');
+include('templates/header4.html');
 
 // Leave the PHP section to display lots of HTML:
 ?>
@@ -16,4 +16,4 @@ include('templates/header.html');
 	<li>Raise High the Roof Beam, Carpenters and Seymour: An Introduction</li>
 </ul>
 
-<?php include('templates/footer.html'); ?>
+<?php include('templates/footer2.html'); ?>

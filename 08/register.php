@@ -3,7 +3,7 @@
 
 // Set the page title and include the header file:
 define('TITLE', 'Register');
-include('templates/header.html');
+include('templates/header4.html');
 
 // Print some introductory text:
 print '<h2>Registration Form</h2>

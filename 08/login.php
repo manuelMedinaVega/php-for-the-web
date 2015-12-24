@@ -3,7 +3,7 @@
 
 // Set the page title and include the header file:
 define('TITLE', 'Login');
-include('templates/header.html');
+include('templates/header4.html');
 
 // Print some introductory text:
 print '<h2>Login Form</h2>
@@ -41,5 +41,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 
-include('templates/footer.html'); // Need the footer.
+include('templates/footer2.html'); // Need the footer.
 ?>

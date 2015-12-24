@@ -3,7 +3,7 @@
 
 // Set the page title and include the header file:
 define('TITLE', 'Register');
-include('templates/header.html');
+include('templates/header4.html');
 
 // Print some introductory text:
 print '<h2>Registration Form</h2>
@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 // Create the form:
 ?>
-<form action="register.php" method="post">
+<form action="register2.php" method="post">
 
 	<p>First Name: <input type="text" name="first_name" size="20" value="<?php if (isset($_POST['first_name'])) { print htmlspecialchars($_POST['first_name']); } ?>" /></p>
 
@@ -82,4 +82,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 </form>
 
-<?php include('templates/footer.html'); // Need the footer. ?>
+<?php include('templates/footer2.html'); // Need the footer. ?>

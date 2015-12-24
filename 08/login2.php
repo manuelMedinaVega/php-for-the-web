@@ -3,7 +3,7 @@
 
 // Set the page title and include the header file:
 define('TITLE', 'Login');
-include('templates/header.html');
+include('templates/header4.html');
 
 // Print some introductory text:
 print '<h2>Login Form</h2>
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 } else { // Display the form.
 
-	print '<form action="login.php" method="post">
+	print '<form action="login2.php" method="post">
 	<p>Email Address: <input type="text" name="email" size="20" /></p>
 	<p>Password: <input type="password" name="password" size="20" /></p>
 	<p><input type="submit" name="submit" value="Log In!" /></p>
@@ -44,5 +44,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 
-include('templates/footer.html'); // Need the footer.
+include('templates/footer2.html'); // Need the footer.
 ?>
